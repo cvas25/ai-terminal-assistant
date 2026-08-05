@@ -1,3 +1,4 @@
+from api import get_joke
 from storage import save_note, load_note
 
 def main():
@@ -13,7 +14,17 @@ def main():
     choice = input("\nChoose an option: ")
 
     if choice == "1":
-        print("\n🚀 AI feature coming soon!")
+
+        joke = get_joke()
+
+        print()
+
+        print(joke["setup"])
+
+        print(joke["punchline"])
+
+
+
 
     elif choice == "2":
         note = input("Enter your note: ")
