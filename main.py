@@ -1,4 +1,4 @@
-from api import get_joke
+from assistant import ask_ai
 from storage import save_note, load_note
 
 def main():
@@ -15,14 +15,13 @@ def main():
 
     if choice == "1":
 
-        joke = get_joke()
+        prompt = input("\nAsk AI: ")
 
-        print()
+        answer = ask_ai(prompt)
 
-        print(joke["setup"])
+        print("\nAI:\n")
 
-        print(joke["punchline"])
-
+        print(answer)
 
 
 
