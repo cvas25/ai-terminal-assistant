@@ -4,7 +4,7 @@ import os
 def save_note(note):
     if os.path.exists("notes.json"):
 
-        with open("notes.json", "w") as file:
+        with open("notes.json", "r") as file:
             try:
                 notes = json.load(file)
             except json.JSONDecodeError:

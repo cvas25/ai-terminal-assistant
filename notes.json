@@ -1,3 +1,14 @@
-{
-    "note": "I love JSON"
-}
+[
+    {
+        "note": "Buy Chicken"
+    },
+    {
+        "note": "Buy Chicken"
+    },
+    {
+        "note": "Buy Chicken"
+    },
+    {
+        "note": "Go to store"
+    }
+]
