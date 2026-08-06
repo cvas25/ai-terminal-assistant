@@ -8,12 +8,14 @@ This project was built to learn the fundamentals of AI engineering by creating a
 
 ## Features
 
-- Ask questions using OpenAI's GPT model
-- Save notes to a JSON file
-- Load saved notes
-- Store multiple notes
-- Make HTTP API requests
-- Modular project architecture
+## Features
+
+- Ask questions using GPT-5.5
+- Multi-turn conversation memory
+- AI-powered note saving using tool calling
+- Save and load notes with JSON
+- Modular Python architecture
+- OpenAI API integration
 
 ## Technologies Used
 
@@ -44,12 +46,11 @@ ai_terminal_assistant/
 
 Through this project I learned:
 
-- How HTTP requests work
-- How APIs communicate using JSON
-- How to integrate the OpenAI API into a Python application
-- How to organize code using modular architecture
-- How to securely manage API keys with environment variables
-- How to use Git and GitHub for version control
+- How HTTP requests communicate with AI APIs
+- How JSON is used between applications
+- How conversation memory works by sending message history
+- How AI tool calling allows models to trigger Python functions
+- How to build modular AI applications
 
 ## Future Improvements
 
